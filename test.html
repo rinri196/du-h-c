@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+    <div id="header">
+        <div id="navbar">
+            <div class="nav_logo">
+                <img id="logo" src="img/logo.png" width="50px" height="50px">
+                <h5>Việt Phát Center</h5>
+            </div>
+            
+            <div id="navbar-right">
+                <B>
+                <ul class="nav-ul">
+                    <li><a href="#header" class="active">Trang chủ</a></li>
+                    <li><a href="#gioithieu">Giới thiệu</a></li>
+                    <li class="dropdown">
+                        <a class="dropbtn" href="#duhoc">Du học<i class="fa-solid fa-chevron-down fa-sm"></i></a>
+                        <div class="dropdown-content">
+                            <a href="#duhoc">Du học Nhật Bản</a>
+                            <a href="#duhocHQ">Du học Hàn Quốc</a>
+                            <a href="#duhocDL">Du học Đài Loan</a>
+                            <a href="#duhocSGP">Du học Singapore</a>
+                        </div>
+                    </li>
+                    <li><a href="#xkld">Xk - lao động</a></li>
+                    <li><a href="#lienhe">Liên hệ</a></li>
+              
+                </ul>  </B>  
+            </div>
+            <label for="nav__mobile-input" class="nav__bars-btn">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </label>
+            <input type="checkbox" name="" class="nav__input" id="nav__mobile-input">
+            <label for="nav__mobile-input" class="nav__overlay"></label>
+            <nav class="nav__mobile">
+                <label for="nav__mobile-input" class="nav__mobile-close">
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                </label>
+                
+                <ul class="nav__mobile-list">
+                    <li><a href="#header" class="nav_mobile-link">Trang chủ</a></li>
+                    <li><a href="#gioithieu" class="nav_mobile-link">Giới thiệu</a></li>
+                    <li id="dropdown">
+                        <a href="#duhoc" class="nav_mobile-link" >Du học<i class="fa-solid fa-chevron-down fa-sm"></i></a>
+                        <div class="drop">
+                        
+                            <a href="#duhoc">Du học Nhật Bản</a><br>
+                            <a href="#duhocHQ">Du học Hàn Quốc</a><br>
+                            <a href="#duhocDL">Du học Đài Loan</a><br>
+                            <a href="#duhocSGP">Du học Singapore</a><br>
+                        
+                
+                        </div>
+                    </li>
+                    <li><a href="#xkld" class="nav_mobile-link">XK-LAO ĐỘNG</a></li>
+                    <li><a href="#lienhe" class="nav_mobile-link">LIÊN HỆ</a></li>
+                    
+                </ul>   
+              
+            </nav>
+        </div>
+        <!-- nav mobile -->
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              
+                <img src="img/fuji.jpg" style="width:100%;" >
+                <div class="text"> 
+                    <h2>VIETPHAT CENTER</h2>
+                    <p>Uy tín đặt niềm tin</p>
+                </div>
+            </div>
+            
+            <div class="mySlides fade">
+                
+                <img src="img/fuji.jpg" style="width:100%;">
+                <div class="text">
+                    <h2>GIỚI THIỆU</h2>
+                    <button><a href="#gioithieu">Xem thêm</a></button>
+                </div>
+            </div>
+            
+            <div class="mySlides fade">
+              
+                <img src="img/fuji.jpg" style="width:100%;">
+                <div class="text">
+                    <h2>DU HỌC</h2>
+                    <button><a href="#duhoc">Xem thêm</a></button>
+                </div>
+            </div>
+            <div class="mySlides fade">
+              
+                <img src="img/fuji.jpg" style="width:100%;">
+                <div class="text">
+                    <h2>XUẤT KHẨU LAO ĐỘNG</h2>
+                    <button><a href="#xkld">Xem thêm</a></button>
+                </div>
+            </div>
+            
+        </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span>
+              <span class="dot"></span> 
+            </div>
+        </div>
+    </div>
+    <script src="main.js">
+    </script>
+</body>
+</html>
